@@ -9,10 +9,10 @@ Observações
 ----
 - Iniciando com testes unitários com PHPUnit e composer
 - Uso de testes para as classes independentes: Button, InputMark, InputText e TextArea
-- A estrutura de testes estão no diretório tests
+- A estrutura de testes está no diretório tests
 - Total de 8 testes e 8 assertions
 - Para testar o exemplo no Windows foi usado a seguinte linha de comando:
-  php vendor/phpunit/phpunit/phpunit -c tests/phpunit.xml
+- php vendor/phpunit/phpunit/phpunit -c tests/phpunit.xml
 
 Como testar o formulário no navegador
 ----
