@@ -36,7 +36,7 @@
  *
  * @category   PHP
  * @package    CodeCoverage
- * @subpackage Tests
+ * @subpackage tests
  * @author     Sebastian Bergmann <sebastian@phpunit.de>
  * @copyright  2009-2014 Sebastian Bergmann <sebastian@phpunit.de>
  * @license    http://www.opensource.org/licenses/BSD-3-Clause  The BSD 3-Clause License
@@ -45,11 +45,11 @@
  */
 
 /**
- * Tests for the PHP_CodeCoverage_Util class.
+ * tests for the PHP_CodeCoverage_Util class.
  *
  * @category   PHP
  * @package    CodeCoverage
- * @subpackage Tests
+ * @subpackage tests
  * @author     Sebastian Bergmann <sebastian@phpunit.de>
  * @copyright  2009-2014 Sebastian Bergmann <sebastian@phpunit.de>
  * @license    http://www.opensource.org/licenses/BSD-3-Clause  The BSD 3-Clause License

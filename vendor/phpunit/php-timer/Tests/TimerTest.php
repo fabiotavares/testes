@@ -46,7 +46,7 @@
 require_once dirname(dirname(__FILE__)) . '/PHP/Timer.php';
 
 /**
- * Tests for PHP_Timer.
+ * tests for PHP_Timer.
  *
  * @package    PHP
  * @subpackage Timer

@@ -24,7 +24,7 @@ use PHPUnit_Framework_TestCase;
 use ReflectionClass;
 
 /**
- * Tests for {@see \Instantiator\Instantiator}
+ * tests for {@see \Instantiator\Instantiator}
  *
  * @author Marco Pivetta <ocramius@gmail.com>
  *

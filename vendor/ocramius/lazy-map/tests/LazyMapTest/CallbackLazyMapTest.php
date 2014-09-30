@@ -23,7 +23,7 @@ use LazyMapTestAsset\NullLazyMap;
 use PHPUnit_Framework_TestCase;
 
 /**
- * Tests for {@see \LazyMap\CallbackLazyMap}
+ * tests for {@see \LazyMap\CallbackLazyMap}
  *
  * @author Marco Pivetta <ocramius@gmail.com>
  *

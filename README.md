@@ -3,15 +3,18 @@ Code Education
 - Módulo: Testes com PHPUnit
 - Projeto Fase: I
 - Autor: Fábio Tavares
-- Data: 20/09/2014
+- Data: 30/09/2014
 
 Observações
 ----
-- Novas funcionalidades de popular através da Request e validar os valores
-- Uso do Patern Composite para os campos FieldSet e Select
-- Uso de bootstrap para geração de estilos
+- Iniciando com testes unitários com PHPUnit e composer
+- Uso de testes para as classes independentes: Button, InputMark, InputText e TextArea
+- A estrutura de testes estão no diretório tests
+- Total de 8 testes e 8 assertions
+- Para testar o exemplo no Windows foi usado a seguinte linha de comando:
+  php vendor/phpunit/phpunit/phpunit -c tests/phpunit.xml
 
-Como testar
+Como testar o formulário no navegador
 ----
 - Execute fixtures.php na raiz do projeto para criar as categorias no banco de dados
 - Execute index.php na pasta /web para exibir o formulário de produto

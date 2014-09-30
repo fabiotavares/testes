@@ -16,6 +16,10 @@ class InputMark extends AbstractField
 
     function __construct($type, $id, $name, $legend, $checked = "")
     {
+        if($type != "radio" and $type != "checkbox") {
+            throw new \InvalidArgumentException("Os únicos tipos aceitos para InputMark são radio e checkbox");
+        }
+
         $this->checked = $checked;
         parent::__construct($id, $name, $type, $legend);
     }

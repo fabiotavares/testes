@@ -35,7 +35,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * @package    PHP_TokenStream
- * @subpackage Tests
+ * @subpackage tests
  * @author     Laurent Laville <pear@laurent-laville.org>
  * @copyright  2009-2014 Sebastian Bergmann <sebastian@phpunit.de>
  * @license    http://www.opensource.org/licenses/BSD-3-Clause  The BSD 3-Clause License
@@ -43,10 +43,10 @@
  */
 
 /**
- * Tests for the PHP_Token_CLASS class.
+ * tests for the PHP_Token_CLASS class.
  *
  * @package    PHP_TokenStream
- * @subpackage Tests
+ * @subpackage tests
  * @author     Laurent Laville <pear@laurent-laville.org>
  * @copyright  2009-2014 Sebastian Bergmann <sebastian@phpunit.de>
  * @license    http://www.opensource.org/licenses/BSD-3-Clause  The BSD 3-Clause License

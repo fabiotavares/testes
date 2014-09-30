@@ -22,7 +22,7 @@ use PHPUnit_Framework_TestCase;
 use stdClass;
 
 /**
- * Tests for {@see \LazyMap\AbstractLazyMap}
+ * tests for {@see \LazyMap\AbstractLazyMap}
  *
  * @author Marco Pivetta <ocramius@gmail.com>
  *

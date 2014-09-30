@@ -43,7 +43,7 @@
  */
 
 /**
- * Tests for the BankAccount class.
+ * tests for the BankAccount class.
  *
  * @package    PHPUnit
  * @author     Sebastian Bergmann <sebastian@phpunit.de>

@@ -36,7 +36,7 @@
  *
  * @category   PHP
  * @package    CodeCoverage
- * @subpackage Tests
+ * @subpackage tests
  * @author     Sebastian Bergmann <sebastian@phpunit.de>
  * @copyright  2009-2014 Sebastian Bergmann <sebastian@phpunit.de>
  * @license    http://www.opensource.org/licenses/BSD-3-Clause  The BSD 3-Clause License
@@ -57,11 +57,11 @@ require_once TEST_FILES_PATH . 'BankAccount.php';
 require_once TEST_FILES_PATH . 'BankAccountTest.php';
 
 /**
- * Tests for the PHP_CodeCoverage class.
+ * tests for the PHP_CodeCoverage class.
  *
  * @category   PHP
  * @package    CodeCoverage
- * @subpackage Tests
+ * @subpackage tests
  * @author     Sebastian Bergmann <sebastian@phpunit.de>
  * @copyright  2009-2014 Sebastian Bergmann <sebastian@phpunit.de>
  * @license    http://www.opensource.org/licenses/BSD-3-Clause  The BSD 3-Clause License

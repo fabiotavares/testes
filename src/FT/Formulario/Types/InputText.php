@@ -17,6 +17,10 @@ class InputText extends AbstractField
 
     function __construct($type, $id, $name, $legend)
     {
+        if($type != "text" and $type != "password" and $type != "email") {
+            throw new \InvalidArgumentException("Os únicos tipos aceitos para InputText são text, password e email");
+        }
+
         parent::__construct($id, $name, $type, $legend);
     }
 

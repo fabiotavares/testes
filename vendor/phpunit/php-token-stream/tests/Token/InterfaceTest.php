@@ -35,7 +35,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * @package    PHP_TokenStream
- * @subpackage Tests
+ * @subpackage tests
  * @author     Sebastian Bergmann <sebastian@phpunit.de>
  * @author     Laurent Laville <pear@laurent-laville.org>
  * @copyright  2009-2014 Sebastian Bergmann <sebastian@phpunit.de>
@@ -44,10 +44,10 @@
  */
 
 /**
- * Tests for the PHP_Token_INTERFACE class.
+ * tests for the PHP_Token_INTERFACE class.
  *
  * @package    PHP_TokenStream
- * @subpackage Tests
+ * @subpackage tests
  * @author     Sebastian Bergmann <sebastian@phpunit.de>
  * @author     Laurent Laville <pear@laurent-laville.org>
  * @copyright  2009-2014 Sebastian Bergmann <sebastian@phpunit.de>

@@ -24,7 +24,7 @@ use PHPUnit_Framework_TestCase;
 use ReflectionClass;
 
 /**
- * Tests for {@see \Instantiator\Exception\InvalidArgumentException}
+ * tests for {@see \Instantiator\Exception\InvalidArgumentException}
  *
  * @author Marco Pivetta <ocramius@gmail.com>
  *

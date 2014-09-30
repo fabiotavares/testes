@@ -19,6 +19,10 @@ class TextArea extends AbstractField
 
     function __construct($id, $name, $legend, $rows, $cols)
     {
+        if(!is_integer($rows) or !is_integer($cols)) {
+            throw new \InvalidArgumentException("Os argumentos rows e cols devem ser números inteiros.");
+        }
+
         $this->rows = $rows;
         $this->cols = $cols;
         parent::__construct($id, $name, null, $legend);

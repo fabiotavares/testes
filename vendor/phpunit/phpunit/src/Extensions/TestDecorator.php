@@ -44,7 +44,7 @@
  */
 
 /**
- * A Decorator for Tests.
+ * A Decorator for tests.
  *
  * Use TestDecorator as the base class for defining new
  * test decorators. Test decorator subclasses can be introduced

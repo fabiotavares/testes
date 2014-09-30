@@ -24,7 +24,7 @@ use PHPUnit_Framework_TestCase;
 use ReflectionClass;
 
 /**
- * Tests for {@see \Instantiator\Exception\UnexpectedValueException}
+ * tests for {@see \Instantiator\Exception\UnexpectedValueException}
  *
  * @author Marco Pivetta <ocramius@gmail.com>
  *

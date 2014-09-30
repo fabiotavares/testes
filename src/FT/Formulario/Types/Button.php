@@ -16,6 +16,10 @@ class Button extends AbstractField
 
     function __construct($type, $id, $name, $legend, $class)
     {
+        if($type != "submit" and $type != "reset") {
+            throw new \InvalidArgumentException("Os únicos tipos aceitos para Button são submit e reset");
+        }
+
         $this->class = $class;
         parent::__construct($id, $name, $type, $legend);
     }

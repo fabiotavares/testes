@@ -44,7 +44,7 @@
  */
 
 /**
- * A TestSuite is a composite of Tests. It runs a collection of test cases.
+ * A TestSuite is a composite of tests. It runs a collection of test cases.
  *
  * Here is an example using the dynamic test definition.
  *
