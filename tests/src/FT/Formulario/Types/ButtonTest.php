@@ -24,5 +24,13 @@ class ButtonTest extends \PHPUnit_Framework_TestCase
     {
         $resultado = new \FT\Formulario\Types\Button("submite", "isub", "sub", "Enviar", "");
     }
+
+    public function testVerificaFuncionamentoDoGetSetClass()
+    {
+        $button = new \FT\Formulario\Types\Button("submit", "isub", "sub", "Enviar", "");
+        $button->setClass("classe");
+        $this->assertEquals("classe", $button->getClass());
+    }
+
 }
 

@@ -57,7 +57,7 @@ class Form implements iField
         $this->fields[] = $field;
     }
 
-    public function resetField()
+    public function resetFields()
     {
         $this->fields = null;
     }

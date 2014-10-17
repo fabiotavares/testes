@@ -2,6 +2,6 @@
 
 $driver = "mysql";
 $host   = "localhost";
-$dbName = "patterns";
+$dbName = "tests";
 $dbUser = "root";
 $dbPass = "root";

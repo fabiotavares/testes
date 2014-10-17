@@ -1,7 +1,7 @@
 Code Education
 ----
 - Módulo: Testes com PHPUnit
-- Projeto Fase: I
+- Projeto Fase: II
 - Autor: Fábio Tavares
 - Data: 30/09/2014
 
