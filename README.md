@@ -1,16 +1,14 @@
 Code Education
 ----
 - Módulo: Testes com PHPUnit
-- Projeto Fase: II
+- Projeto Fase: III
 - Autor: Fábio Tavares
-- Data: 30/09/2014
+- Data: 17/10/2014
 
 Observações
 ----
-- Iniciando com testes unitários com PHPUnit e composer
-- Uso de testes para as classes independentes: Button, InputMark, InputText e TextArea
+- Criando testes unitários e funcionais
 - A estrutura de testes está no diretório tests
-- Total de 8 testes e 8 assertions
 - Para testar o exemplo no Windows foi usado a seguinte linha de comando:
 - php vendor/phpunit/phpunit/phpunit -c tests/phpunit.xml
 
