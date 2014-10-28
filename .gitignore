@@ -2,4 +2,5 @@
 vendor/
 src/FT/CodeEducation
 tests/src/FT/CodeEducation
+tests/log
 composer.lock

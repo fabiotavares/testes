@@ -13,7 +13,7 @@ abstract class FieldContainer implements iField
 {
     protected $fields = [];
 
-    function add (iField $field)
+    function add(iField $field)
     {
         $this->fields[] = $field;
     }

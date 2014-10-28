@@ -36,14 +36,13 @@ class FormProdutos extends Form
         //Adicionando os campos categoria, nome, valor e descrição ao fieldset
         //CATEGORIAS
         $select = new Select('icategoria', 'categoria', 'Categoria:');
-        $sql = "Select * From categorias";
-        $stmt = $this->conn->prepare($sql);
+        $stmt = $this->conn->prepare("Select * From categorias");
         $stmt->execute();
         $categorias = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+
         foreach($categorias as $categoria) {
             $select->add(new Option($categoria['id'], $categoria['nome']));
         }
-        //$select->getFields()[0]->setSelected('selected'); //deixando a 1ª opção pré-selecionada
         $fieldsetProdutos->add($select);
 
         //NOME, VALOR e DESCRIÇÃO

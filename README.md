@@ -1,13 +1,13 @@
 Code Education
 ----
 - Módulo: Testes com PHPUnit
-- Projeto Fase: III
+- Projeto Fase: IV
 - Autor: Fábio Tavares
-- Data: 17/10/2014
+- Data: 28/10/2014
 
 Observações
 ----
-- Criando testes unitários e funcionais
+- Aplicando a metodologia TDD: refatorando o código
 - A estrutura de testes está no diretório tests
 - Para testar o exemplo no Windows foi usado a seguinte linha de comando:
 - php vendor/phpunit/phpunit/phpunit -c tests/phpunit.xml

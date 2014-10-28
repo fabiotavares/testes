@@ -13,4 +13,9 @@
     <testsuite name="FT - Testes">
         <directory>.</directory>
     </testsuite>
+
+    <!-- <logging>
+        <log type="coverage-html" target="./log/report" chaset="UTF-8" yui="true" highlight="true" lowUpperBound="35" highLowerBound="70" />
+        <log type="testdox-html" target="./log/testdox.html" />
+    </logging> -->
 </phpunit>
