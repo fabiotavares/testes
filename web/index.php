@@ -37,8 +37,8 @@ $formProdutos = new FormProdutos($conn, new Request($_REQUEST),'iForm', 'form', 
 <div class="container">
     <body>
         <div class="hero-unit">
-            <h2>PHP: Testes Unitários com PHPUnit</h2>
-            <h2><small>Projeto Fase 1 - Fábio Tavares</small></h2>
+            <h2>PHP: Testes de Aceitação com Selenium</h2>
+            <h2><small>Projeto Fase 5 - Fábio Tavares</small></h2>
         </div>
 
 <?php
@@ -50,7 +50,7 @@ else:
 ?>
 
     <div class="alert alert-success">
-        <h4>Parabéns!</h4>
+        <h1>Parabéns!</h1>
         Produto cadastrado com sucesso.
     </div>
     <p>
